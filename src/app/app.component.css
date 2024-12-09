@@ -1,0 +1,15 @@
+/* app.component.css */
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #002e6e;
+  }
+  
+  app-header,
+  app-date-selector,
+  app-tab,
+  app-hour-slot,
+  app-booking {
+    margin-bottom: 20px;
+  }

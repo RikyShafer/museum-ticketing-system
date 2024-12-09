@@ -1,0 +1,53 @@
+/* עיצוב הכפתור להצגת הטבלה */
+.show-table-button {
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+.show-table-button:hover {
+    background-color: #005bb5;
+  }
+.visitor-counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px; /* ריווח בין הכפתורים לתיבה */
+  }
+  
+  .counter-btn {
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem; /* גודל טקסט */
+    border-radius: 50%; /* כפתורים עגולים */
+  }
+  
+  .counter-input {
+    text-align: center; /* טקסט במרכז */
+    width: 60px; /* רוחב הקלט */
+    font-size: 1.5rem; /* גודל טקסט */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px; /* עיצוב הפינות */
+  }
+
+  .visitor-count-display {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .visitor-count-display h2 {
+    font-size: 5rem; /* מספר גדול מאוד */
+    font-weight: bold;
+    color: #007bff; /* צבע הכותרת */
+  }
+  .aaa{
+    background-color: aqua;
+    background: red;
+  }

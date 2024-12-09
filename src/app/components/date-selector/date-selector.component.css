@@ -1,0 +1,30 @@
+/* date-selector.component.css */
+.date-selector-container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .date-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .date-display,
+  .tickets-left {
+    font-size: 1rem;
+    margin: 5px 0;
+  }
+  
+  .date-picker-label {
+    display: block;
+    margin: 10px 0;
+    font-size: 1rem;
+  }
+  
+  .date-picker {
+    padding: 5px;
+    font-size: 1rem;
+    border-radius: 4px;
+  }

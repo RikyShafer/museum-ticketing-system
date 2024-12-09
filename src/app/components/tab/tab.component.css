@@ -1,0 +1,127 @@
+/* עיצוב כללי */
+.tab-container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    background-color: #002e6e;
+    margin-bottom: 20px;
+  }
+  
+  /* עיצוב טבלה כללית */
+  .schedule-table-container {
+    display: flex;
+    justify-content: space-around; /* מרווח שווה בין העמודות */
+    gap: 20px; /* מרווח נוסף בין העמודות */
+    padding: 20px 0;
+  }
+  
+  .schedule-column {
+    width: 30%; /* כל עמודה תתפוס 30% מהשטח */
+    background-color: #f0f8ff; /* רקע כחול בהיר לעמודה */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .schedule-column h3 {
+    background-color: #0074d9; /* רקע כחול כהה לכותרת */
+    color: white;
+    margin: -15px -15px 15px -15px; /* הרחבת רקע הכותרת לקצוות */
+    padding: 10px;
+    border-radius: 10px 10px 0 0; /* עיגול רק בחלק העליון */
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  /* תאי הזמן */
+  .slot-box {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, background-color 0.3s;
+    color: #333;
+  }
+  
+  .slot-box:hover {
+    transform: scale(1.05);
+  }
+  
+  .slot-box.closed {
+    background-color: #ffd6d6; /* אדום בהיר */
+    color: #d9534f; /* אדום כהה */
+  }
+  
+  .slot-box .hour {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .slot-box .tickets {
+    font-size: 1rem;
+    color: #333;
+  }
+/* עיצוב למשבצות עם כרטיסים אזלו */
+.sold-out {
+    background-color: #f8d7da; /* אדום בהיר */
+    color: #721c24; /* טקסט אדום כהה */
+    font-weight: bold;
+    border: 1px solid #f5c6cb;
+  }
+  
+  /* סגנון למצב של כרטיסים סגורים */
+  .closed {
+    background-color: #e0e0e0; /* אפור להדגשת הסטטוס סגור */
+    color: #999; /* טקסט בהיר */
+    font-weight: bold;
+  }
+
+
+  /* עיצוב עבור המודל */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    color: #333;
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 300px;
+  }
+  
+  .modal-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #f0f0f0;
+  }
+  

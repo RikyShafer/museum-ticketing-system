@@ -1,0 +1,67 @@
+.hour-slot-container {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .time-table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .time-table thead {
+    background-color: #0074d9; /* כחול */
+    color: #ffffff; /* לבן */
+  }
+  
+  .time-table th, 
+  .time-table td {
+    border: 1px solid #0074d9; /* קווים כחולים */
+    padding: 12px;
+    text-align: center;
+    font-size: 1rem;
+  }
+  
+  .time-table td {
+    background-color: #f0f8ff; /* כחול בהיר */
+  }
+  
+  .time-table tr:nth-child(even) td {
+    background-color: #e6f7ff; /* גוון כחול נוסף */
+  }
+  
+  .time-table button {
+    padding: 5px 10px;
+    font-size: 1rem;
+    border: 1px solid #0074d9;
+    border-radius: 4px;
+    background-color: #0074d9; /* כחול כהה */
+    color: #fff;
+    cursor: pointer; /* סמן אצבע */
+    transition: background-color 0.3s ease;
+  }
+  
+  .time-table button:hover {
+    background-color: #005bb5; /* כחול כהה יותר */
+  }
+  
+  .time-table button.closed-btn {
+    background-color: #d9534f; /* אדום */
+    color: #fff;
+    cursor: not-allowed;
+  }
+  
+  .time-table button.closed-btn:hover {
+    background-color: #d9534f; /* לא משתנה */
+  }
+  
+  .time-table button.available-btn {
+    background-color: #28a745; /* ירוק */
+    color: #fff;
+  }
+  
+  .time-table button.available-btn:hover {
+    background-color: #218838; /* ירוק כהה יותר */
+  }

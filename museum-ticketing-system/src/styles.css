@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+/* הגדרות כלליות עבור כל הפרויקט */
+body {
+    font-family: 'Heebo', sans-serif;
+    font-size: 18px; /* גודל טקסט ברירת מחדל */
+    direction: rtl; /* מגדיר את הכיוון לימין (עברית) */
+    text-align: right; /* מגדיר טקסט לימין */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: radial-gradient(circle, #003f87 0%, #002a5c 100%);
+    color: white;
+
+  }

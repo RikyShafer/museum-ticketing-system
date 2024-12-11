@@ -1,0 +1,16 @@
+<div class="visitor-counter">
+  <!-- כפתור להצגת הטבלה -->
+  <button (click)="displayTable()" class="show-table-button">
+    הצג שעות זמינות
+  </button>
+
+  <!-- כפתורים לשינוי כמות המבקרים -->
+  <button mat-stroked-button color="primary" class="counter-btn" (click)="decrease()">-</button>
+  <input matInput type="number" [(ngModel)]="visitorCount" class="counter-input" min="1">
+  <button mat-stroked-button color="primary" class="counter-btn" (click)="increase()">+</button>
+</div>
+
+<!-- טבלה מוצגת רק אם showTable הוא true -->
+<div *ngIf="showTable">
+  <app-tab [visitorCount]="visitorCount"></app-tab>
+</div>

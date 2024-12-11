@@ -1,0 +1,37 @@
+/* עיצוב כללי של הקומפוננטה */
+.header-container {
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  /* עיצוב התמונה */
+  .header-image {
+    width: 100%; /* התמונה תתפרס על כל הרוחב */
+    max-width: 300px; /* רוחב מקסימלי */
+    height: auto; /* שומר על יחס התמונה */
+    margin-bottom: 15px; /* רווח מתחת לתמונה */
+    border-radius: 8px; /* עיגול פינות קל */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* אפקט צל */
+  }
+  
+  /* כותרת ראשית */
+  .header-title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  /* תיאור קצר */
+  .header-description {
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+  
+  /* כותרת משנה */
+  .header-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  

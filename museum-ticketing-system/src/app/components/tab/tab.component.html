@@ -1,0 +1,99 @@
+<div class="tab-container">
+  <h2>שעות זמינות</h2>
+  <div class="schedule-table-container">
+    <!-- עמודת בוקר -->
+    <div class="schedule-column">
+      <h3>בוקר</h3>
+      <div
+        *ngFor="let slot of morningSlots"
+        class="slot-box"
+        [ngClass]="{ 'closed': slot.isClosed, 'sold-out': isLowAvailability(slot) }"
+        (click)="onSlotClick(slot)"
+        [class.selectable]="!slot.isClosed && !isLowAvailability(slot)"
+      >
+        <div class="hour">{{ slot.startTime }}</div>
+        <div class="tickets">
+          <ng-container *ngIf="slot.isClosed">
+            סגור
+          </ng-container>
+          <ng-container *ngIf="isLowAvailability(slot) && !slot.isClosed">
+            {{ slot.availablePlaces }} כרטיסים - אזל
+          </ng-container>
+          <ng-container *ngIf="!slot.isClosed && !isLowAvailability(slot)">
+            {{ slot.availablePlaces + ' כרטיסים' }}
+          </ng-container>
+        </div>
+      </div>
+    </div>
+
+    <!-- עמודת צהריים -->
+    <div class="schedule-column">
+      <h3>צהריים</h3>
+      <div
+        *ngFor="let slot of afternoonSlots"
+        class="slot-box"
+        [ngClass]="{ 'closed': slot.isClosed, 'sold-out': isLowAvailability(slot) }"
+        (click)="onSlotClick(slot)"
+        [class.selectable]="!slot.isClosed && !isLowAvailability(slot)"
+      >
+        <div class="hour">{{ slot.startTime }}</div>
+        <div class="tickets">
+          <ng-container *ngIf="slot.isClosed">
+            סגור
+          </ng-container>
+          <ng-container *ngIf="isLowAvailability(slot) && !slot.isClosed">
+            {{ slot.availablePlaces }} כרטיסים - אזל
+          </ng-container>
+          <ng-container *ngIf="!slot.isClosed && !isLowAvailability(slot)">
+            {{ slot.availablePlaces + ' כרטיסים' }}
+          </ng-container>
+        </div>
+      </div>
+    </div>
+
+    <!-- עמודת ערב -->
+    <div class="schedule-column">
+      <h3>אחה"צ</h3>
+      <div
+        *ngFor="let slot of eveningSlots"
+        class="slot-box"
+        [ngClass]="{ 'closed': slot.isClosed, 'sold-out': isLowAvailability(slot) }"
+        (click)="onSlotClick(slot)"
+        [class.selectable]="!slot.isClosed && !isLowAvailability(slot)"
+      >
+        <div class="hour">{{ slot.startTime }}</div>
+        <div class="tickets">
+          <ng-container *ngIf="slot.isClosed">
+            סגור
+          </ng-container>
+          <ng-container *ngIf="isLowAvailability(slot) && !slot.isClosed">
+            {{ slot.availablePlaces }} כרטיסים - אזל
+          </ng-container>
+          <ng-container *ngIf="!slot.isClosed && !isLowAvailability(slot)">
+            {{ slot.availablePlaces + ' כרטיסים' }}
+          </ng-container>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- המודל להזמנה -->
+<div class="modal" *ngIf="selectedSlot && !selectedSlot.confirmationMessage">
+  <div class="modal-content">
+    <h3>האם אתה רוצה להזמין לשעה {{ selectedSlot.startTime }}?</h3>
+    <p>כמות כרטיסים: {{ visitorCount }}</p>
+    <div class="modal-actions">
+      <button (click)="confirmBooking()">אישור</button>
+      <button (click)="cancelBooking()">ביטול</button>
+    </div>
+  </div>
+</div>
+
+<!-- המודל לאישור -->
+<div class="modal" *ngIf="selectedSlot?.confirmationMessage">
+  <div class="modal-content">
+    <h3>{{ selectedSlot.confirmationMessage }}</h3>
+    <p>ההזמנה שלך תתבצע בהצלחה</p>
+  </div>
+</div>

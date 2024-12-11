@@ -1,0 +1,227 @@
+[
+  {
+    "StartTime": "8:30",
+    "AvailablePlaces": 0,
+    "IsClosed": false
+  },
+  {
+    "StartTime": "8:40",
+    "AvailablePlaces": 6,
+    "IsClosed": false
+  },
+  {
+    "StartTime": "8:50",
+    "AvailablePlaces": 0,
+    "IsClosed": false
+  },
+  {
+    "StartTime": "9:00",
+    "AvailablePlaces": 10,
+    "IsClosed": false
+  },
+  {
+    "StartTime": "9:10",
+    "AvailablePlaces": 60,
+    "IsClosed": false
+  },
+  {
+    "StartTime": "9:20",
+    "AvailablePlaces": 10,
+    "IsClosed": true
+  },
+  {
+    "StartTime": "9:30",
+    "AvailablePlaces": 10,
+    "IsClosed": false
+  },
+  {
+    "StartTime": "9:40",
+    "AvailablePlaces": 80,
+    "IsClosed": false
+  },
+  {
+    "StartTime": "9:50",
+    "AvailablePlaces": 10,
+    "IsClosed": false
+  },
+  {
+    "StartTime": "10:00",
+    "AvailablePlaces": 10,
+    "IsClosed": false
+  },
+  {
+    "StartTime": "10:10",
+    "AvailablePlaces": 40,
+    "IsClosed": false
+  },
+  {
+    "StartTime": "10:20",
+    "AvailablePlaces": 10,
+    "IsClosed": false
+  },
+  {
+    "StartTime": "10:30",
+    "AvailablePlaces": 10,
+    "IsClosed": true
+  },
+  {
+    "StartTime": "10:40",
+    "AvailablePlaces": 0,
+    "IsClosed": false
+  },
+  {
+    "StartTime": "10:50",
+    "AvailablePlaces": 10,
+    "IsClosed": false
+  },
+  {
+    "StartTime": "11:00",
+    "AvailablePlaces": 10,
+    "IsClosed": false
+  },
+  {
+    "StartTime": "11:10",
+    "AvailablePlaces": 10,
+    "IsClosed": false
+  },
+  {
+    "StartTime": "11:20",
+    "AvailablePlaces": 0,
+    "IsClosed": false
+  },
+  {
+    "StartTime": "11:30",
+    "AvailablePlaces": 10,
+    "IsClosed": false
+  },
+  {
+    "StartTime": "11:40",
+    "AvailablePlaces": 10,
+    "IsClosed": true
+  },
+  {
+    "StartTime": "11:50",
+    "AvailablePlaces": 10,
+    "IsClosed": false
+  },
+  {
+    "StartTime": "12:00",
+    "AvailablePlaces": 10,
+    "IsClosed": false
+  },
+  {
+    "StartTime": "12:10",
+    "AvailablePlaces": 0,
+    "IsClosed": false
+  },
+  {
+    "StartTime": "12:20",
+    "AvailablePlaces": 10,
+    "IsClosed": false
+  },
+  {
+    "StartTime": "12:30",
+    "AvailablePlaces": 10,
+    "IsClosed": false
+  },
+  {
+    "StartTime": "12:40",
+    "AvailablePlaces": 50,
+    "IsClosed": false
+  },
+  {
+    "StartTime": "12:50",
+    "AvailablePlaces": 10,
+    "IsClosed": false
+  },
+  {
+    "StartTime": "13:00",
+    "AvailablePlaces": 80,
+    "IsClosed": false
+  },
+  {
+    "StartTime": "13:10",
+    "AvailablePlaces": 10,
+    "IsClosed": false
+  },
+  {
+    "StartTime": "13:20",
+    "AvailablePlaces": 70,
+    "IsClosed": true
+  },
+  {
+    "StartTime": "13:30",
+    "AvailablePlaces": 10,
+    "IsClosed": true
+  },
+  {
+    "StartTime": "13:40",
+    "AvailablePlaces": 0,
+    "IsClosed": false
+  },
+  {
+    "StartTime": "13:50",
+    "AvailablePlaces": 10,
+    "IsClosed": false
+  },
+  {
+    "StartTime": "14:00",
+    "AvailablePlaces": 10,
+    "IsClosed": false
+  },
+  {
+    "StartTime": "14:10",
+    "AvailablePlaces": 10,
+    "IsClosed": false
+  },
+  {
+    "StartTime": "14:20",
+    "AvailablePlaces": 0,
+    "IsClosed": false
+  },
+  {
+    "StartTime": "14:30",
+    "AvailablePlaces": 10,
+    "IsClosed": false
+  },
+  {
+    "StartTime": "14:40",
+    "AvailablePlaces": 0,
+    "IsClosed": false
+  },
+  {
+    "StartTime": "14:50",
+    "AvailablePlaces": 10,
+    "IsClosed": false
+  },
+  {
+    "StartTime": "15:00",
+    "AvailablePlaces": 70,
+    "IsClosed": false
+  },
+  {
+    "StartTime": "15:10",
+    "AvailablePlaces": 10,
+    "IsClosed": false
+  },
+  {
+    "StartTime": "15:20",
+    "AvailablePlaces": 70,
+    "IsClosed": false
+  },
+  {
+    "StartTime": "15:30",
+    "AvailablePlaces": 10,
+    "IsClosed": false
+  },
+  {
+    "StartTime": "15:40",
+    "AvailablePlaces": 80,
+    "IsClosed": false
+  },
+  {
+    "StartTime": "15:50",
+    "AvailablePlaces": 30,
+    "IsClosed": false
+  }
+]
